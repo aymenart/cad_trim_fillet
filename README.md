@@ -8,6 +8,8 @@ Professional 2D/3D CAD Trimming, Corner Fillet & Chamfer suite for **IngeTrazo**
 
 Developed by **Aymen Alhaddad (Architect & Developer)**.
 
+🌐 Disponible también en español: [README.es.md](README.es.md)
+
 ---
 
 ## Features
@@ -38,6 +40,12 @@ Developed by **Aymen Alhaddad (Architect & Developer)**.
 - Full transactional undo/redo integration with IngeTrazo's `SnapshotImport` (`Ctrl+Z` / `Ctrl+Y`).
 - Theme-adaptive high-DPI vector icons (supports both Dark and Light UI themes).
 - Viewport context menu shortcuts on right-click.
+
+### 7. Multi-language Interface (English / Spanish)
+- Choose the language in the settings dialog (**Automatic / English / Español**). The choice is saved between sessions; restart IngeTrazo to apply it to menus and toolbar.
+- With **Automatic**, Spanish is used if IngeTrazo or the system uses Spanish, English otherwise.
+- To force a language from the code, set `FORCE_LANGUAGE = "en"` or `FORCE_LANGUAGE = "es"` near the top of `__init__.py`.
+- To add another language, copy the `"en"` block inside `_TEXTS` and translate it.
 
 ---
 
